@@ -1,10 +1,16 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import { Outlet } from 'react-router-dom';
+import '../App.css';
 
 function Layout({ children }) {
     return (
         <>
+            <header className="header">
+                <h1>My Website Header</h1>
+            </header>
             <Nav fill variant="tabs" defaultActiveKey="/">
                 <Nav.Item>
                     <Nav.Link as={Link} to="/">Home</Nav.Link>

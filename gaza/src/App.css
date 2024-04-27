@@ -1,3 +1,11 @@
+.header{
+    padding: 40px;
+    text-align: center;
+    background: #3a3a3a;
+    color: white;
+    font-size: 30px;
+}
+
 body {
     background-color: #3a3a3a;
     color: #f5f7f2;
@@ -8,4 +16,4 @@ body {
     background-color: #3a3a3a; 
     color: #f5f7f2; 
     margin-bottom: 20px; 
-  }
+}
