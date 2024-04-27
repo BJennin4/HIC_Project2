@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
 import Home from "./pages/Home";
 import Actors from "./pages/Actors";
 import CurrentState from "./pages/CurrentState";

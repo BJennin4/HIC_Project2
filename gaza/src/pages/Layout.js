@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
+import { Outlet } from 'react-router-dom';
 
 function Layout({ children }) {
     return (
@@ -24,7 +25,7 @@ function Layout({ children }) {
                     <Nav.Link as={Link} to="/Resources">Resources</Nav.Link>
                 </Nav.Item>
             </Nav>
-            <div>{children}</div>  {/* This div will contain the routed components */}
+            <Outlet /> {/* This div will contain the routed components */}
         </>
     );
 }
