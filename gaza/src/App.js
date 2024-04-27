@@ -8,10 +8,13 @@ import Resources from "./pages/Resources";
 import Timeline from "./pages/Timeline";
 import Layout from "./pages/Layout";
 import NoPage from "./pages/NoPage";
+import Civilians from "./pages/Civilians";
+import Hamas from "./pages/Hamas";
+import IDF from "./pages/IDF";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/HIC_Project2">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -20,6 +23,9 @@ export default function App() {
           <Route path="Actors" element={<Actors />} />
           <Route path="OctoberSeventhEvent" element={<October />} />
           <Route path="Resources" element={<Resources />} />
+          <Route path="Civilians" element={<Civilians />} />
+          <Route path="Hamas" element={<Hamas />} />
+          <Route path="IDF" element={<IDF />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
