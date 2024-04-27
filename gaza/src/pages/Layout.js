@@ -9,7 +9,12 @@ function Layout({ children }) {
     return (
         <>
             <header className="header">
-                <h1>My Website Header</h1>
+                <div className="header-content">
+                    <div>
+                        <h1>gaza guide.</h1>
+                        <h6>current as of april 27, 2024</h6>
+                    </div>
+                </div>
             </header>
             <Nav fill variant="tabs" defaultActiveKey="/">
                 <Nav.Item>

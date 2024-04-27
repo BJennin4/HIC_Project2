@@ -1,14 +1,50 @@
-.header{
-    padding: 40px;
-    text-align: center;
-    background: #3a3a3a;
-    color: white;
-    font-size: 30px;
-}
-
 body {
     background-color: #3a3a3a !important;
     color: #f5f7f2 !important;
+}
+
+@font-face {
+    font-family: 'Nifty-A';
+    src: url(./fonts/Nifty-Ascent.otf);
+}
+@font-face {
+    font-family: 'Nifty-D';
+    src: url(./fonts/Nifty-Descent.otf);
+}
+@font-face {
+    font-family: 'Nifty-R';
+    src: url(./fonts/Nifty-Regular.otf);
+}
+@font-face {
+    font-family: 'Nifty-XH';
+    src: url(./fonts/Nifty-XHeight.otf);
+}
+
+.header {
+    padding-left: -50%;
+    background: #3a3a3a;
+    color: white;
+}
+
+.header-content {
+    padding-left: 4.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Arrange children in a column */
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Nifty-A';
+    font-size: 60px !important;
+}
+
+h6 {
+    text-align: center; /* Align h6 text in the center */
+    color: white;
+    font-family: 'Nifty-A';
+    font-size: 15px !important;
 }
 
 .main-container {
