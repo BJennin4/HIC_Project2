@@ -25,13 +25,24 @@ body {
     border-width: 0 !important;
 }
 
-.card-title{
+.card-title {
     font: inherit !important;
     font-size: 2rem !important;
     font-weight: bold !important;
 }
 
-.card-text{
+.card-text {
     font: inherit !important;
     padding-left: 1.5rem !important;
+}
+
+.list-group {
+    font: inherit !important;
+    color: inherit !important;
+    background-color: inherit !important;
+}
+
+.list-item{
+    color: inherit !important;
+    background-color: inherit !important;
 }
