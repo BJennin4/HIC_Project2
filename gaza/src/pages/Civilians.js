@@ -1,22 +1,34 @@
 import '../App.css';
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import '../actors.css';
 
 const Civilians = () => {
     return (
-        <div className='main-container'>
-            <Card className='card-container'>
-                <Card.Body>
-                    <Card.Title className='card-title'>Civilians</Card.Title>
+        <div className="civilians">
+            < div className='main-container' >
+
+                <Card className='card-container'>
+                    <Card.Body>
+                        <Card.Title className='card-title'>Civilians</Card.Title>
                         <Card.Text className='card-text'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare suspendisse. Proin sagittis nisl rhoncus mattis rhoncus urna. Vel eros donec ac odio tempor orci. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Interdum varius sit amet mattis vulputate enim. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Et malesuada fames ac turpis egestas sed tempus urna et. Id leo in vitae turpis massa sed elementum tempus egestas. Id porta nibh venenatis cras. Ornare massa eget egestas purus viverra accumsan in. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla.</p>
+                            <p>Hamas soldiers penetrated the heavily fortified border of Gaza, launching attacks in numerous southern towns and villages of Israel. This lead to approximately 1,400 fatalities. In addition to the fatalities, they caused widespread injuries and abductions of Israeli people. Israel retaliated by declaring war on Hamas, promising to permanently end its existence. This resulted in a siege on Gaza, causing deaths of over 8,000 Palestinians within 3 weeks, 40% of whom were children.
 
-                        <p>Nunc faucibus a pellentesque sit amet porttitor eget dolor. Tellus integer feugiat scelerisque varius. Nec ultrices dui sapien eget mi. Hac habitasse platea dictumst vestibulum rhoncus est. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Et egestas quis ipsum suspendisse ultrices. Vestibulum morbi blandit cursus risus at. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Nibh praesent tristique magna sit amet purus gravida quis blandit. Tempor nec feugiat nisl pretium. Id donec ultrices tincidunt arcu non sodales. In hac habitasse platea dictumst vestibulum rhoncus. Etiam dignissim diam quis enim. Facilisi nullam vehicula ipsum a arcu cursus vitae. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Semper eget duis at tellus at. Consectetur libero id faucibus nisl tincidunt eget. Urna neque viverra justo nec ultrices dui sapien eget mi. Quisque egestas diam in arcu cursus.</p>
+                                Israel performed aerial attacks causing extensive damage to residential areas, educational institutions, and religious sites. A United Nations satellite analysis showed that about 30% of Gaza’s infrastructure was destroyed or damaged. By February, the death toll in Gaza had escalated to 27,748, with more than 66,800 injuries. The numbers are only increasing on a daily basis.
 
-                        <p>Pretium viverra suspendisse potenti nullam ac tortor vitae. Mi proin sed libero enim sed. Nisl vel pretium lectus quam id. Egestas diam in arcu cursus euismod quis viverra nibh cras. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Pretium viverra suspendisse potenti nullam ac tortor vitae. Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Gravida rutrum quisque non tellus orci ac. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Amet facilisis magna etiam tempor orci eu lobortis. Laoreet id donec ultrices tincidunt arcu non sodales neque. Sollicitudin tempor id eu nisl nunc mi ipsum. Id diam vel quam elementum pulvinar.</p>
+                                A December report from the Integrated Food Security Phase Classification states there are acute food shortages in Gaza that are affecting over 90% of its inhabitants. Things got worse when Gaza's only power plant shut down operations due to a fuel shortage. This ended essential services like desalination and wastewater treatment, leading to a severe water crisis.
+
+                                The humanitarian situation deteriorated rapidly, with safe refuge options decreasing daily. By January, displacement had impacted approximately 75% of Gaza’s population. This is about over two million people. An exodus from the northern regions to Rafah in the south occurred, as people desperately sought safety, turning Rafah into a densely populated refuge.
+
+                                The food security situation has hit extreme levels as  2.2 million people are facing the threat of famine. 378,000 of them are suffering from extreme food shortages, signaling a dire humanitarian crisis in Gaza. The conflict has displaced over three-quarters of Gaza’s population, pushing over a million people into Rafah. This sudden surge has devastated homes and jobs, and spiked disease and malnutrition rates, severely affecting over 155,000 pregnant and breastfeeding women.
+
+                                Shelter conditions are overcrowded and unsanitary, raising fears of disease outbreaks, especially with sewage problems in Rafah and Khan Younis. Civilians endure harsh conditions, with many living in makeshift tents and surviving on scarce food. Children's education has been halted due to destroyed schools.
+
+                                Gaza's medical facilities are on the edge of breakdown, swamped with patients and short on supplies. Around 5,500 expectant mothers are finding it hard to get the necessary medical attention for giving birth. Additionally, the scarcity of water and sanitary products has left over 690,000 women and girls facing significant challenges related to privacy and cleanliness.</p>
                         </Card.Text>
-                </Card.Body>
-            </Card>
+                    </Card.Body>
+                </Card>
+            </div >
         </div>
     );
 }

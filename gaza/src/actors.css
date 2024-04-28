@@ -1,0 +1,39 @@
+.actorsTitle {
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 5%;
+
+}
+
+.images-row {
+    display: flex;
+    justify-content: start;
+}
+
+.map,
+.hamaslogo {
+    width: auto;
+    height: 390px;
+
+}
+
+.hamaslogo {
+    margin-left: 5%;
+}
+
+.map {
+    padding-left: 5%;
+}
+
+.main-container .civilians {
+    background-image: url("/public/gazaDestruction.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
