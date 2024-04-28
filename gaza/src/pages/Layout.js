@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import { Outlet } from 'react-router-dom';
 import '../App.css';
 
@@ -11,7 +10,9 @@ function Layout({ children }) {
             <header className="header">
                 <div className="header-content">
                     <div>
-                        <h1>gaza guide.</h1>
+                        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <h1>gaza guide.</h1>
+                        </Link>
                         <h6>current as of april 27, 2024</h6>
                     </div>
                 </div>

@@ -8,14 +8,17 @@ body {
     font-family: 'Nifty-A';
     src: url(./fonts/Nifty-Ascent.otf);
 }
+
 @font-face {
     font-family: 'Nifty-D';
     src: url(./fonts/Nifty-Descent.otf);
 }
+
 @font-face {
     font-family: 'Nifty-R';
     src: url(./fonts/Nifty-Regular.otf);
 }
+
 @font-face {
     font-family: 'Nifty-XH';
     src: url(./fonts/Nifty-XHeight.otf);
@@ -31,7 +34,8 @@ body {
     padding-left: 4.5%;
     display: flex;
     align-items: center;
-    flex-direction: column; /* Arrange children in a column */
+    flex-direction: column;
+    /* Arrange children in a column */
 }
 
 h1 {
@@ -42,7 +46,8 @@ h1 {
 }
 
 h6 {
-    text-align: center; /* Align h6 text in the center */
+    text-align: center;
+    /* Align h6 text in the center */
     color: white;
     font-family: 'Nifty-A';
     font-size: 15px !important;
@@ -56,9 +61,9 @@ h6 {
 
 .card-container {
     width: 50rem;
-    background-color: inherit !important; 
-    color: inherit !important; 
-    margin-bottom: 20px; 
+    background-color: inherit !important;
+    color: inherit !important;
+    margin-bottom: 20px;
     border-width: 0 !important;
 }
 
@@ -79,7 +84,7 @@ h6 {
     background-color: inherit !important;
 }
 
-.list-item{
+.list-item {
     color: inherit !important;
     background-color: inherit !important;
 }
