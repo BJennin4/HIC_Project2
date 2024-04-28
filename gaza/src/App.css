@@ -3,7 +3,7 @@ body {
     color: #f5f7f2 !important;
     font-family: 'Nifty-A' !important;
 }
-
+/* -------------- imported fonts -------------- */
 @font-face {
     font-family: 'Nifty-A';
     src: url(./fonts/Nifty-Ascent.otf);
@@ -39,7 +39,7 @@ body {
     padding-left: 6%;
     display: flex;
     align-items: center;
-    flex-direction: left; /* Arrange children in a column */
+    flex-direction: left;
 }
 
 h1 {
@@ -50,12 +50,12 @@ h1 {
 }
 
 h6 {
-    text-align: left; /* Align h6 text in the center */
+    text-align: left;
     color: white;
     font-family: 'Nifty-R';
     font-size: 15px !important;
 }
-
+/* -------------- navigation -------------- */
 .navigation{
     padding-bottom: 1.3%;
     position: relative;
@@ -76,25 +76,24 @@ h6 {
 
 .nav-link {
     color: white !important;
-    position: relative; /* Ensure the animation is positioned relative to this element */
-    transition: color 0.3s ease; /* Smooth transition for color change */
+    position: relative;
+    transition: color 0.3s ease; 
 }
 
 .nav-link::before {
-    content: ''; /* Create a pseudo-element for the animation */
+    content: ''; 
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0;
-    height: 2px; /* Height of the animation line */
-    background-color: white; /* Color of the animation line */
-    transition: width 0.3s ease; /* Smooth transition for width change */
+    height: 2px; 
+    background-color: white; 
+    transition: width 0.3s ease; 
 }
 
 .nav-link:hover::before {
-    width: 100%; /* Expand the animation line to full width on hover */
+    width: 100%; 
 }
-
 .nav-link:hover {
     color: rgb(228, 255, 192) !important; 
 }
@@ -104,24 +103,40 @@ h6 {
     justify-content: center;
     height: 100vh;
 }
-
+/* -------------- cards -------------- */
 .card-container {
     width: 50rem;
     background-color: inherit !important;
     color: inherit !important;
     margin-bottom: 20px;
+    margin-left: -80px;
     border-width: 0 !important;
 }
 
 .card-title {
-    font-family: 'Nifty-R' !important;
-    font-size: 2rem !important;
+    font-family: 'Nifty-XH' !important;
+    font-size: 55px !important;
     font-weight: bold !important;
+    opacity: 0; 
+    transform: translateY(100%); 
+    animation: easeInFromBottom 0.5s forwards; 
+}
+
+@keyframes easeInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }
 
 .card-text {
     font-family: 'Garet' !important;
     padding-left: 1.5rem !important;
+    margin-left: 55px;
 }
 
 .list-group {
@@ -134,3 +149,10 @@ h6 {
     color: inherit !important;
     background-color: inherit !important;
 }
+/* -------------- October seventh page -------------- */
+
+.OctPic{
+    
+}
+
+

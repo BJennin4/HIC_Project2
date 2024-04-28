@@ -7,7 +7,8 @@ const October = () => {
         <div className='main-container'>
             <Card className='card-container'>
                 <Card.Body>
-                    <Card.Title className='card-title'>October</Card.Title>
+                    <Card.Title className='card-title'>The Events On October Seventh</Card.Title>
+                        
                         <Card.Text className='card-text'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare suspendisse. Proin sagittis nisl rhoncus mattis rhoncus urna. Vel eros donec ac odio tempor orci. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Interdum varius sit amet mattis vulputate enim. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Et malesuada fames ac turpis egestas sed tempus urna et. Id leo in vitae turpis massa sed elementum tempus egestas. Id porta nibh venenatis cras. Ornare massa eget egestas purus viverra accumsan in. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla.
 

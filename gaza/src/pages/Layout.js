@@ -15,9 +15,9 @@ function Layout({ children }) {
                         </Link>
                         <h6>current as of april 27, 2024</h6>
                     </div>
-                <div className="logo">           
-                    <img src = "GazaGuideWhite.png" alt="logo"/>
-                </div>
+                    <div className="logo">
+                        <img src="./logo/GazaGuideWhite.png" alt="Logo" style={{ width: '150px', height: 'auto' }} />
+                    </div>
                 </div>
             </header>
             <div className="navigation">
