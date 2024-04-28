@@ -116,7 +116,8 @@ h6 { /* naviagtion bar text */
 .card-title {
     font-family: 'Nifty-XH' !important;
     font-size: 55px !important;
-    font-weight: bold !important;
+    font-weight: 500 !important;
+    letter-spacing: 2px !important;
     opacity: 0; 
     transform: translateY(100%); 
     animation: easeInFromBottom 0.5s forwards; 

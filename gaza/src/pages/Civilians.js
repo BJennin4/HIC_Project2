@@ -7,9 +7,8 @@ const Civilians = () => {
     return (
         <div className="civilians">
             < div className='main-container' >
-
                 <Card className='card-container'>
-                    <Card.Body>
+                    <Card.Body className="body">
                         <Card.Title className='card-title'>Civilians</Card.Title>
                         <Card.Text className='card-text'>
                             <p>Hamas soldiers penetrated the heavily fortified border of Gaza, launching attacks in numerous southern towns and villages of Israel. This lead to approximately 1,400 fatalities. In addition to the fatalities, they caused widespread injuries and abductions of Israeli people. Israel retaliated by declaring war on Hamas, promising to permanently end its existence. This resulted in a siege on Gaza, causing deaths of over 8,000 Palestinians within 3 weeks, 40% of whom were children.

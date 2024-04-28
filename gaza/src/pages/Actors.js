@@ -6,19 +6,19 @@ import '../actors.css';
 function Actors() {
     const cards = [
         {
-            image: "civilians.png",
+            image: "gazaCitizens1.png",
             title: "Civilians",
             text: "Click the link above to read about the war's impact on civilians in the Gaza strip",
             link: "/Civilians"
         },
         {
-            image: "hamas.png",
+            image: "hamas1.jpg",
             title: "Hamas",
             text: "Click the link above learn about the history of Hamas and their role in the events taking place",
             link: "/Hamas"
         },
         {
-            image: "idf.png",
+            image: "IDF.jpg",
             title: "IDF",
             text: "Click the link above to learn about the IDF and their role in the war",
             link: "/IDF"
