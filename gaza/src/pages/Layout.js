@@ -10,13 +10,13 @@ function Layout({ children }) {
         <>
             <header className="header">
                 <div className="header-content">
+                    <img src={logo} alt="Logo" style={{ width: '120px', height: 'auto' }} />
                     <div>
                         <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
                             <h1>gaza guide.</h1>
                         </Link>
                         <h6>current as of april 27, 2024</h6>
                     </div>
-                    <img src={logo} alt="Logo" style={{ width: '150px', height: 'auto' }} />
                 </div>
             </header>
             <div className="navigation">
