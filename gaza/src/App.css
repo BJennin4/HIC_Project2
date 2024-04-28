@@ -42,14 +42,14 @@ body {
     flex-direction: left;
 }
 
-h1 {
+h1 { /* webiste name text */
     text-align: center;
     color: white;
     font-family: 'Nifty-R';
     font-size: 60px !important;
 }
 
-h6 {
+h6 { /* naviagtion bar text */
     text-align: left;
     color: white;
     font-family: 'Nifty-R';
@@ -95,7 +95,7 @@ h6 {
     width: 100%; 
 }
 .nav-link:hover {
-    color: rgb(228, 255, 192) !important; 
+    color: #e4ffc0 !important; 
 }
 
 .main-container {
@@ -151,8 +151,57 @@ h6 {
 }
 /* -------------- October seventh page -------------- */
 
-.OctPic{
-    
+.container {
+    position: relative;
+    width: auto;
+    height: 500px;
+}
+
+.oct1Pic {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: auto;
+    height: 450px;
+    z-index: 1; 
+    animation: easeInFromBottomDelay 1.0s forwards;
+}
+
+.background {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: auto;
+    height: 400px;
+    margin-left: auto;
+    margin-bottom: -60px; 
+    z-index: 0; 
+}
+
+.card-octtext {
+    padding-top: 200px;
+    font-family: 'Garet' !important;
+    padding-left: 1.5rem !important;
+    margin-left: 55px;
+}
+
+h3{ /* image source text */
+    padding-top: 90px;
+    padding-left: 2px;
+    text-align: left;
+    color: #878987 !important;
+    font-family: 'Garet';
+    font-size: 10px !important;
 }
 
 
+@keyframes easeInFromBottomDelay {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
