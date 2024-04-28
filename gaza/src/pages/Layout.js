@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import { Outlet } from 'react-router-dom';
 import '../App.css';
+import logo from './../images/GazaGuideWhite.png';
 
 function Layout({ children }) {
     return (
@@ -15,9 +16,7 @@ function Layout({ children }) {
                         </Link>
                         <h6>current as of april 27, 2024</h6>
                     </div>
-                    <div className="logo">
-                        <img src="./logo/GazaGuideWhite.png" alt="Logo" style={{ width: '150px', height: 'auto' }} />
-                    </div>
+                    <img src={logo} alt="Logo" style={{ width: '150px', height: 'auto' }} />
                 </div>
             </header>
             <div className="navigation">

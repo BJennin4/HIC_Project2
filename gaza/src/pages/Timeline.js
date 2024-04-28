@@ -7,6 +7,7 @@ const Timeline = () => {
         <div className='main-container'>
             <Card className='card-container'>
                 <Card.Body>
+
                 </Card.Body>
             </Card>
         </div>
