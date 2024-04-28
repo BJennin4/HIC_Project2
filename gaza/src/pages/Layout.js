@@ -15,30 +15,35 @@ function Layout({ children }) {
                         </Link>
                         <h6>current as of april 27, 2024</h6>
                     </div>
+                <div className="logo">           
+                    <img src = "GazaGuideWhite.png" alt="logo"/>
+                </div>
                 </div>
             </header>
-            <Nav fill variant="tabs" defaultActiveKey="/">
+            <div className="navigation">
+            <Nav expand="leg" defaultActiveKey="/">
                 <Nav.Item>
-                    <Nav.Link as={Link} to="/">Home</Nav.Link>
+                <Nav.Link as={Link} to="/" className="nav-link">home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link as={Link} to="/OctoberSeventhEvent">October 7th Event</Nav.Link>
+                    <Nav.Link as={Link} to="/OctoberSeventhEvent">october seventh event</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link as={Link} to="/CurrentState">Current State of Conflict</Nav.Link>
+                    <Nav.Link as={Link} to="/CurrentState">current state of conflict</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link as={Link} to="/Timeline">Timeline</Nav.Link>
+                    <Nav.Link as={Link} to="/Timeline">timeline</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link as={Link} to="/Actors">Actors at Play</Nav.Link>
+                    <Nav.Link as={Link} to="/Actors">actors at play</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link as={Link} to="/Resources">Resources</Nav.Link>
+                    <Nav.Link as={Link} to="/Resources">resources</Nav.Link>
                 </Nav.Item>
             </Nav>
-            <Outlet /> {/* This div will contain the routed components */}
-        </>
+        </div>
+    <Outlet /> {/* This div will contain the routed components */}
+</>
     );
 }
 
