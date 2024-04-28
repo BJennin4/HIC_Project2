@@ -1,7 +1,7 @@
 .actorsTitle {
     text-align: center;
     font-size: 75px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 
 }
 
@@ -23,6 +23,10 @@
 
 .map {
     padding-left: 5%;
+}
+
+.parent {
+    margin: 1%;
 }
 
 .main-container .civilians {
