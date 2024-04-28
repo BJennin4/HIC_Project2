@@ -156,4 +156,15 @@ h6 {
     
 }
 
+.custom-timeline-element .vertical-timeline-element-content {
+background-color: #f5f7f2; /* Set background color for the entire card */
+color: #3a3a3a; /* Set text color */
+}
 
+.custom-timeline-element .vertical-timeline-element-content::before {
+background-color: #f5f7f2; /* Set background color for the bubble */
+}
+
+.date {
+    color: #f5f7f2 !important;
+}

@@ -3,7 +3,7 @@ let timelineElements = [
         id: 1,
         title: 'Event 1',
         description: 'This is event 1',
-        date: '???'
+        date: '01/01/1970'
     },
     {
         id: 2,
@@ -12,3 +12,5 @@ let timelineElements = [
         date: '???'
     }
 ]
+
+export default timelineElements;
