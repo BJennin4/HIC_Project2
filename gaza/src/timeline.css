@@ -35,7 +35,7 @@ h3{
 .custom-timeline-element h3{
     display: inline;
     font-size: larger !important;
-    margin-right: -300px !important;
+    /* margin-right: -300px !important; */
     width: 800px;
 }
 
