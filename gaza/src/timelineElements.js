@@ -95,6 +95,12 @@ let timelineElements = [
         description: 'Israel kills the military cheif of Hamas. A week of fighting leads to the death of more than 150 Palestinians and at least six Israelis.',
         date: '2012'
     },
+    {
+        id: 17,
+        title: 'Death of Ahmed al-Jabari',
+        description: 'Israel kills the military cheif of Hamas. A week of fighting leads to the death of more than 150 Palestinians and at least six Israelis.',
+        date: '2012'
+    },
 ]
 
 export default timelineElements;
