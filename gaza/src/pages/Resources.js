@@ -11,7 +11,7 @@ const Resources = () => {
                     <Card.Title className='card-title'>Resources</Card.Title>
                         <Card.Text className='card-text'>
                             <ListGroup className='list-group'>
-                                <ListGroup.Item className='list-item'>Cras justo odio</ListGroup.Item>
+                                <ListGroup.Item className='list-item'>Timeline: <a href='https://en.wikipedia.org/wiki/Suez_Crisis'>wikipedia/Suez Crisis</a>,<a href="https://en.wikipedia.org/wiki/Oslo_Accords">wikipedia/Oslo Accords</a></ListGroup.Item>
                                 <ListGroup.Item className='list-item'>Dapibus ac facilisis in</ListGroup.Item>
                                 <ListGroup.Item className='list-item'>Morbi leo risus</ListGroup.Item>
                                 <ListGroup.Item className='list-item'>Porta ac consectetur ac</ListGroup.Item>
