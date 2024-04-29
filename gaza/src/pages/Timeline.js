@@ -17,7 +17,7 @@ const Timeline = () => {
                         className="custom-timeline-element" 
                         >
                             <h3 className="vertical-timeline-element-title" 
-                            style={{ marginRight: `${-200-(element.title.length*14)}px` }} // Attempted fix at continuing issue
+                            style={{ marginRight: `${-200-(element.title.length*10)}px` }} // Attempted fix at continuing issue
                             >{element.title}</h3>
                             <p>{element.description}</p>
                         </VerticalTimelineElement>
