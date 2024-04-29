@@ -1,4 +1,4 @@
-import '../App.css';
+import '../timeline.css';
 import React from 'react';
 import timelineElements from './../timelineElements';
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
