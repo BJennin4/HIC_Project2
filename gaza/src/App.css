@@ -42,10 +42,6 @@ body {
     flex-direction: left;
 }
 
-.date h6{
-    margin-top: -10px;
-}
-
 .logo{
     position: absolute;
     top: 20px;
@@ -161,60 +157,4 @@ h6 { /* naviagtion bar text */
 .list-item {
     color: inherit !important;
     background-color: inherit !important;
-}
-/* -------------- October seventh page -------------- */
-
-.container {
-    position: relative;
-    width: auto;
-    height: 500px;
-}
-
-.oct1Pic {
-    position: absolute;
-    top: 60px;
-    left: 20px;
-    width: auto;
-    height: 450px;
-    z-index: 1; 
-    animation: easeInFromBottomDelay 1.0s forwards;
-}
-
-.background {
-    position: relative;
-    top: 20px;
-    left: 30px;
-    width: auto;
-    height: 400px;
-    margin-left: auto;
-    margin-bottom: -60px; 
-    z-index: 0; 
-}
-
-.card-octtext {
-    padding-top: 200px;
-    font-family: 'Garet' !important;
-    padding-left: 1.5rem !important;
-    margin-left: 55px;
-}
-
-h3{ /* image source text */
-    padding-top: 90px;
-    padding-left: 2px;
-    text-align: left;
-    color: #878987 !important;
-    font-family: 'Garet';
-    font-size: 10px !important;
-}
-
-
-@keyframes easeInFromBottomDelay {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0%);
-    }
 }

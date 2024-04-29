@@ -1,0 +1,107 @@
+/* -------------- October seventh page -------------- */
+@font-face {
+    font-family: 'Nifty-A';
+    src: url(./fonts/Nifty-Ascent.otf);
+}
+
+@font-face {
+    font-family: 'Nifty-D';
+    src: url(./fonts/Nifty-Descent.otf);
+}
+
+@font-face {
+    font-family: 'Nifty-R';
+    src: url(./fonts/Nifty-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Nifty-XH';
+    src: url(./fonts/Nifty-XHeight.otf);
+}
+
+@font-face {
+    font-family: 'Garet';
+    src: url(./fonts/Garet-Book.otf);
+}
+
+@font-face {
+    font-family: 'Garet-H';
+    src: url(./fonts/Garet-Heavy.otf);
+}
+
+.container {
+    position: relative;
+    width: auto;
+    height: 500px;
+}
+
+.oct1Pic {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: auto;
+    height: 450px;
+    z-index: 1; 
+    animation: easeInFromBottomDelay 1.0s forwards;
+}
+
+.background {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: auto;
+    height: 400px;
+    margin-left: auto;
+    margin-bottom: -60px; 
+    z-index: 0; 
+}
+
+.card-octtext {
+    padding-top: 30px;
+    font-family: 'Garet' !important;
+    margin-left: -19px;
+}
+
+strong{
+    font-family: 'Garet-H';
+}
+
+h2{ /* Bold Text */
+    padding-top: 90px;
+    padding-left: 2px;
+    text-align: left;
+    color: #ffffff !important;
+    font-family: 'Garet-H';
+    font-size: 10px !important;
+}
+
+h3{ /* image source text */
+    padding-top: 90px;
+    padding-left: 2px;
+    text-align: left;
+    color: #878987 !important;
+    font-family: 'Garet';
+    font-size: 10px !important;
+}
+
+.date h6{
+    margin-top: -10px;
+}
+
+.card-text {
+    font-family: 'Garet' !important;
+    padding-left: 1.5rem !important;
+    margin-left: -20px;
+}
+
+@keyframes easeInFromBottomDelay {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
