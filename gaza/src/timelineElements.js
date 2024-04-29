@@ -97,9 +97,33 @@ let timelineElements = [
     },
     {
         id: 17,
-        title: 'Death of Ahmed al-Jabari',
-        description: 'Israel kills the military cheif of Hamas. A week of fighting leads to the death of more than 150 Palestinians and at least six Israelis.',
-        date: '2012'
+        title: 'Israelis Kidnapped',
+        description: 'Hamas kidnapped and killed three Israeli teens, which prompts attacks from Israel. This leads to rocket launches in Gaza. The total casulaties of this conflict include 1,881 Palestinians and more than 60 Israelis.',
+        date: '2014'
+    },
+    {
+        id: 18,
+        title: 'Border Fence Protests',
+        description: 'Israel responds to protests along the fence between Gaza and Israel, killing at least 170 Palestinians.',
+        date: '2018'
+    },
+    {
+        id: 19,
+        title: '11 Day War',
+        description: 'Israeli police raided Al Aqsa Mosque in Jerusalem. This set off an 11-day war between Israel and Hamas that killed more than 200 Palestinians and more than 10 Israelis.',
+        date: '2021'
+    },
+    {
+        id: 20,
+        title: 'Terrorist attacks and the West Bank',
+        description: 'Several terrorist attacks in Israeli cities lead to Israeli forces killing at least 166 Palestinians in the Israeli-occupied West Bank.',
+        date: '2022'
+    },
+    {
+        id: 21,
+        title: 'Current Day',
+        description: 'Israeli forces have carried out numerous militaried raids in Palestine. A palestinian man killed several people outside a synagogue in East Jerusalem.',
+        date: '2018'
     },
 ]
 

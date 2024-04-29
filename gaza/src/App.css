@@ -42,6 +42,14 @@ body {
     flex-direction: left;
 }
 
+.logo{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: auto;
+    height: 450px;
+}
+
 h1 { /* webiste name text */
     text-align: center;
     color: white;
@@ -150,87 +158,3 @@ h6 { /* naviagtion bar text */
     color: inherit !important;
     background-color: inherit !important;
 }
-/* -------------- October seventh page -------------- */
-
-.container {
-    position: relative;
-    width: auto;
-    height: 500px;
-}
-
-.oct1Pic {
-    position: absolute;
-    top: 60px;
-    left: 20px;
-    width: auto;
-    height: 450px;
-    z-index: 1; 
-    animation: easeInFromBottomDelay 1.0s forwards;
-}
-
-.background {
-    position: relative;
-    top: 20px;
-    left: 30px;
-    width: auto;
-    height: 400px;
-    margin-left: auto;
-    margin-bottom: -60px; 
-    z-index: 0; 
-}
-
-.card-octtext {
-    padding-top: 200px;
-    font-family: 'Garet' !important;
-    padding-left: 1.5rem !important;
-    margin-left: 55px;
-}
-
-h3{ /* image source text */
-    padding-top: 90px;
-    padding-left: 2px;
-    text-align: left;
-    color: #878987 !important;
-    font-family: 'Garet';
-    font-size: 10px !important;
-}
-
-
-@keyframes easeInFromBottomDelay {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0%);
-    }
-}
-
-.custom-timeline-element p{
-    margin: 0 !important;
-}
-
-.custom-timeline-element h3{
-    font-size: larger !important;
-    margin: 0 !important;
-}
-
-.custom-timeline-element .vertical-timeline-element-content {
-    background-color: #f5f7f2; 
-    color: #3a3a3a; 
-    display: flex;
-}
-  
-  .custom-timeline-element .vertical-timeline-element-content::before {
-    background-color: #f5f7f2; 
-}
-
-.date {
-    color: #f5f7f2; 
-}
-
-.vertical-timeline-element-content {
-    max-height: 100px;
-}
-  

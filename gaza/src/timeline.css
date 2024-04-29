@@ -1,0 +1,59 @@
+body {
+    background-color: #3a3a3a !important;
+    color: #f5f7f2 !important;
+    font-family: 'Nifty-A' !important;
+}
+
+.card-text {
+    font-family: 'Garet' !important;
+    padding-left: 1.5rem !important;
+    margin-left: 55px;
+}
+
+.list-group {
+    font: inherit !important;
+    color: inherit !important;
+    background-color: inherit !important;
+}
+
+.list-item {
+    color: inherit !important;
+    background-color: inherit !important;
+}
+
+h3{ 
+    color: #878987 !important;
+    font-family: 'Garet';
+    font-size: 10px !important;
+}
+
+.custom-timeline-element p{
+    margin: 0 !important;
+    float: left;
+}
+
+.custom-timeline-element h3{
+    display: inline;
+    font-size: larger !important;
+    /* margin-right: -300px !important; */
+    width: 800px;
+}
+
+.custom-timeline-element .vertical-timeline-element-content {
+    background-color: #f5f7f2; 
+    color: #3a3a3a; 
+    display: flex;
+}
+  
+.custom-timeline-element .vertical-timeline-element-content::before {
+    background-color: #f5f7f2; 
+}
+
+.date {
+    color: #f5f7f2; 
+}
+
+.vertical-timeline-element-content {
+    max-height: 200px;
+}
+  

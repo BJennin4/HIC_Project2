@@ -1,4 +1,4 @@
-import '../App.css';
+import '../timeline.css';
 import React from 'react';
 import timelineElements from './../timelineElements';
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
@@ -16,7 +16,9 @@ const Timeline = () => {
                         dateClassName="date"
                         className="custom-timeline-element" 
                         >
-                            <h3 className="vertical-timeline-element-title">{element.title}</h3>
+                            <h3 className="vertical-timeline-element-title" 
+                            style={{ marginRight: `${-200-(element.title.length*10)}px` }} // Attempted fix at continuing issue
+                            >{element.title}</h3>
                             <p>{element.description}</p>
                         </VerticalTimelineElement>
                     ))
