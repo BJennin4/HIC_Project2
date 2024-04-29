@@ -20,17 +20,18 @@ const CurrentState = () => {
                             </Card.Text>
                             <Card.Text>
                                 <h1>Civilian Casualities</h1>
-                                    <h3>Gaza</h3>
+                                    Gaza<br></br>
                                     Killed: at least 31,726 people, including more than:
 	                                 More than 13,000 children
 	                                 84,000 women<br></br>
                                      Injured: more than 73,792 people, including at least: 8,663 children, 6,327 women<br></br>
                                     Missing: more than 8,000
-                                    
-                                    <h3>Occupied West Bank</h3>
+                                    <br></br><br></br>
+                                    Occupied West Bank<br></br>
                                     Killed: at least 435 people, including more than 116 children<br></br>
                                     Injured: more than 4,650 people
-                                    <h3>Israel</h3>
+                                    <br></br><br></br>
+                                    Israel<br></br>
                                     Killed: 1,139<br></br>
                                       Injured: at least 8,730
                             </Card.Text>
