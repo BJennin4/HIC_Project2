@@ -1,1 +1,0 @@
-The purpose of our website is to give an overview of the conflict happening in the Gaza strip. The website is intended to be informative and as unbiased as possible. It features a timeline of past events to establish a history and a description of the current situation in the area. It also has a page dedicated to each of the major sides involved in the conflict.
