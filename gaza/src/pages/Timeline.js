@@ -11,10 +11,10 @@ const Timeline = () => {
                 {
                     timelineElements.map(element => (
                         <VerticalTimelineElement
-                            key={element.id}
-                            date={element.date}
-                            dateClassName="date"
-                            className='custom-timeline-element'
+                        key={element.id}
+                        date={element.date}
+                        dateClassName="date"
+                        className="custom-timeline-element" 
                         >
                             <h3 className="vertical-timeline-element-title">{element.title}</h3>
                             <p>{element.description}</p>
