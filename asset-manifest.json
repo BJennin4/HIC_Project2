@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HIC_Project2/static/css/main.e44c3a06.css",
+    "main.css": "/HIC_Project2/static/css/main.f5aa253f.css",
     "main.js": "/HIC_Project2/static/js/main.7c90fcdd.js",
     "static/media/gazaDestruction.jpg": "/HIC_Project2/static/media/gazaDestruction.409cc0581e06405eb4f2.jpg",
     "static/media/Garet-Book.otf": "/HIC_Project2/static/media/Garet-Book.10cd0ab2fec081ace003.otf",
@@ -10,11 +10,11 @@
     "static/media/Nifty-Ascent.otf": "/HIC_Project2/static/media/Nifty-Ascent.35eba449838065537dcf.otf",
     "static/media/Nifty-Descent.otf": "/HIC_Project2/static/media/Nifty-Descent.e3631bb6a73d22098373.otf",
     "index.html": "/HIC_Project2/index.html",
-    "main.e44c3a06.css.map": "/HIC_Project2/static/css/main.e44c3a06.css.map",
+    "main.f5aa253f.css.map": "/HIC_Project2/static/css/main.f5aa253f.css.map",
     "main.7c90fcdd.js.map": "/HIC_Project2/static/js/main.7c90fcdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.e44c3a06.css",
+    "static/css/main.f5aa253f.css",
     "static/js/main.7c90fcdd.js"
   ]
 }
